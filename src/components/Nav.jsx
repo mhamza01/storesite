@@ -12,7 +12,25 @@ const Nav = () => {
                 <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
                     <div className="flex-10">
                         <ul className="flex gap-8 mr-16 text-[18px] text-1xl">
-                                <Link to="/shop"><li className="hover:text-gray-700 transition border-b-2 border-gray-100 hover:border-gray-950 cursor-pointer">SHOP</li></Link>
+                                
+                                <div className="group">
+                                    <button className="hover:text-gray-700 transition border-b-2 border-gray-100 hover:border-gray-950 cursor-pointer">SHOP</button>
+                                    <div className="border-b-4 border-gray-800 hidden group-hover:flex flex-col absolute left-0 p-10 w-full px-20 bg-gray-100 z-20 text-black duration-300">
+                                        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+                                           <div className="flex flex-col">
+                                            <h3 className="mb-4 font-bold text-1xl text-black">Products</h3>
+                                                <a href="" className="hover:underline hover:text-gray-900">Hoodies</a>
+                                                <a href="" className="hover:underline hover:text-gray-900">Outerwear</a>
+                                                <a href="" className="hover:underline hover:text-gray-900">Bottoms</a>
+                                                <a href="" className="hover:underline hover:text-gray-900">Accessories</a>
+                                           </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <Link to="/gallery"><li className="hover:text-gray-700 transition border-b-2 border-gray-100 hover:border-gray-950 cursor-pointer">GALLERY</li></Link>
                                 <Link to="/about"><li className="hover:text-gray-700 transition border-b-2 border-gray-100 hover:border-gray-950 cursor-pointer">ABOUT</li></Link>
                                 <Link to="/contact"><li className="hover:text-gray-700 transition border-b-2 border-gray-100 hover:border-gray-950 cursor-pointer">CONTACT</li></Link>
                         </ul>
