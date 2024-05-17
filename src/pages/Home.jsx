@@ -1,6 +1,7 @@
 import React from "react";
 import dior1 from "../assets/dior1.jpg";
 import rings1 from "../assets/rings1.jpg";
+import dior2 from "../assets/dior2.jpg";
 
 const Home = () => {
     return (
@@ -16,8 +17,12 @@ const Home = () => {
                     <div className="text-center text-3xl text-white">Accessories</div>
                 </div>
             </div>
-            <div className="text-center text-gray-900 bg-gray-800 -py-1">.</div>
+            <div className="h-8 bg-gray-900 text-white flex items-center justify-center">
+                <p className="font-light">++ Our Guarantee</p>
+            </div>
         </div>
+        
+        
     </div>
     );
 };
