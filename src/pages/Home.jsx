@@ -18,8 +18,36 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-8 bg-gray-900 text-white flex items-center justify-center">
+            <div className="h-8 bg-zinc-900 text-white flex items-center justify-center">
                 <p className="font-light">✦ ✦ ✦ ✦</p>
+            </div>
+
+            <div className="bg-zinc-200">
+                <p className="text-center text-3xl font-semibold underline underline-offset-4 py-4">OUR LOOKS</p>
+
+                <div className="grid grid-cols-4 gap-3 mt-1">
+                    <div className="card border border-gray-900">
+                        <img src={dior1} alt="dior1" className="w-full object-cover" style={{height: '30rem'}}/>
+                        <p className="bg-gray-100 text-center text-xl font-semibold">View Products</p>
+                        <p className="bg-gray-100 text-center text-gray-500 text">@zay34</p>
+                    </div>
+                    <div className="card border border-gray-900">
+                        <img src={rings1} alt="rings1" className="w-full object-cover" style={{height: '30rem'}} />
+                        <p className="bg-gray-100 text-center text-xl font-semibold">View Products</p>
+                        <p className="bg-gray-100 text-center text-gray-500 text">@zay34</p>
+                    </div>
+                    <div className="card border border-gray-900">
+                        <img src={dior2} alt="dior2" className="w-full object-cover" style={{height: '30rem'}}/>
+                        <p className="bg-gray-100 text-center text-xl font-semibold">View Products</p>
+                        <p className="bg-gray-100 text-center text-gray-500 text">@zay34</p>
+                    </div>
+                    <div className="card border border-gray-900">
+                        <img src={dior1} alt="dior1" className="w-full object-cover" style={{height: '30rem'}}/>
+                        <p className="bg-gray-100 text-center text-xl font-semibold">View Products</p>
+                        <p className="bg-gray-100 text-center text-gray-500 text">@zay34</p>
+                    </div>
+                </div>
+                <p className="text-white text-4xl">text</p>
             </div>
         </div>
     );
